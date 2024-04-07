@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperature Converter</title>
+</head>
+
+<body>
+    <div class="container">
+        <p class="head"><b><u>Temperature Converter</u></b></p>
+        <div id="box">
+            <form action="" id="tempInput">
+                <input type="text" class="temp-input" id="input" placeholder="Enter temperature">
+            </form>
+
+            <form action="">
+                <p class="head-two"><b>Temperature in which unit : </b></p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="type" id="celcius1" value="celcius">
+                    <label class="form-check-label" >Celcius</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="type" id="fahrenheit1" value="fahrenheit">
+                    <label class="form-check-label" >Fahrenheit</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="type" id="kelvin1" value="kelvin">
+                    <label class="form-check-label" >Kelvin</label>
+                </div>
+            </form>
+
+            <p class="head-two"><b>To Convert into which unit : </b></p>
+
+            <form action="">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="type" id="celcius2" value="celcius">
+                    <label class="form-check-label" >Celcius</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="type" id="fahrenheit2" value="fahrenheit">
+                    <label class="form-check-label" >Fahrenheit</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="type" id="kelvin2" value="kelvin">
+                    <label class="form-check-label" >Kelvin</label>
+                </div>
+            </form>
+
+            <button onclick="convertUnit()" type="submit" class="convert-btn">CONVERT</button>
+
+            <form action="">
+                <input type="text" class="temp-output" id="output" placeholder="Converted Temperature">
+            </form>
+        </div>
+    </div>
+    <script src="end.js"></script>
+</body>
+
+</html>

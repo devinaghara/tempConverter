@@ -1,0 +1,49 @@
+#box{
+    font-size: 21px;
+}
+
+.container{
+    border: 3px solid black;
+    margin: 10px auto;
+    margin-top: 80px;
+    padding: 200px 120px;
+    width: 300px;
+    height: 230px;
+    background-color: aquamarine;
+    border-radius: 2%;
+    box-shadow: 3px 3px 13px 2px grey;
+}  
+
+.head{
+    font-size: 29px;
+    margin-top: -150px;
+    color: black;
+}
+
+.temp-input{
+    margin: 15px;
+    height: 25px;
+    width: 250px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.temp-output{
+    height: 25px;
+    margin: 15px;
+    width: 250px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.convert-btn{
+    height: 25px;
+    width: 140px;
+    font-size: 17px;
+    margin: 20px;
+    margin-left: 70px;
+    border-radius: 7px;
+    box-shadow: 3px 3px 6px 2px grey;
+}
